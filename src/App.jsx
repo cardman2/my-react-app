@@ -20,13 +20,16 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
+        <p className='edit'>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div className='dialog'>
+        <div className='content'>加载</div>
+      </div>
     </div>
   )
 }
