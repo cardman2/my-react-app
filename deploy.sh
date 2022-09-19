@@ -14,13 +14,13 @@ cd dist
 
 git init
 git checkout -b main
-git add -A
+git add .
 git commit -m 'deploy'
 
 # 如果你要部署在 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # 如果你要部署在 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+git push -f git@github.com:cardman2/my-react-app.git main:gh-pages
 
 cd -
