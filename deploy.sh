@@ -12,8 +12,8 @@ cd dist
 # 如果你要部署到自定义域名
 # echo 'www.example.com' > CNAME
 
-git init https://github.com/cardman2/my-react-app.git
-git remote add origin 
+git init
+git remote add origin https://github.com/cardman2/my-react-app.git
 git checkout -b main
 git add .
 git commit -m 'deploy'
